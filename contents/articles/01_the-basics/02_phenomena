@@ -1,0 +1,59 @@
+Physical Phenomena
+------------------
+
+To describe the phenomena we found in nature and that is enabling us to build a TM we'll use the flying-dots explanation model mentioned. First a remark on how introducing a physical phenomena significantly helps to make it really hard to find mistakes in the theory. Scientists can show that there is something that works like they say, they build huge experiments, repeat them, let others scientists review or try to "disprove" them. What they say (their theory) is valid as long it isn't showed that it's wrong. [Karl Popper][popper] called this falsifiability. Left aside the fact that they can sometimes be wrong, they have a really hard time to prove that something isn't there when it doesn't conflict with commonly accepted theories or is outside their scope. Two things we exploit:
+
+The effect/phenomena found and depicted below
+
+  * does not dispute commonly accepted theories or
+  * is outside the scope of these theories.
+
+Imagine two dots. One smaller particle _p_ shot at a larger target _T_. If you don't look at it very closely _p_ hits _T_ and then bounces of to somewhere we don't have to care anymore. Pretty much what one would expect from dots. However if you look very closely one can see that shortly before _p_ touches _T_, the letter T in _T_ goes red for a moment signalizing/symbolizing that it knows that is going to get hit. The T going red is a measurable property of _T_. Still not 100% exciting, it's like an asteroid is going to hit earth atmosphere and mankind/people can tell that they'll see some shooting stars. Let's draw a line ("line of T") to remember where _p_ needs to be, when T gets red to illustrate _T_s range of sight.
+
+
+![Physical Phenomena Part 1][phsphe_wf]
+
+Now for the interesting part: As we can influence where _p_ is going (obviously because we somehow are purposely already shooting it at _T_) we ask whats going to happen if we try to deflect its path after it passed the slashed line. Let's use a field _F_ for that. So step by step what happens: 
+
+1. _p_ is flying towards _T_
+2. at the time _p_ passes the "line of T" we look the "T of _T_" (red or not red)
+3. we wait
+4. shortly before it's too late to deflect _p_, we put on _F_
+5. _p_ gets deflected and misses _T_ 
+6. we already knew that because the T in _T_ wasn't red at the first step.
+
+![Physical Phenomena Part 2][phsphe]
+
+This works even if the decision to deflect (or not) _p_ is made after _p_ passed the "line of T". This effect that can show us information (hit or no hit) about the future is truly astonishing. 
+
+We can check if this effect found in nature really works with the following experiment: We do almost the same thing again but this time with a random hit/no hit decision.
+
+1. _p_ is flying towards _T_
+2. at the time _p_ passes the "line of T" we measure the "T of _T_" property __and remember value (e.g. red)__
+3. we wait
+4. start random process to get random decision
+5. shortly before it's too late to deflect _p_ or not, we put on _F_ or not (depending on the decision earlier)
+6. also we remember the decision
+7. compare the remembered value with the remembered decision
+
+<!-- does this already fork time? -->
+
+In a perfect world, the two values would coincide with each other, no matter how often we repeat this experiment and we always would have valid information about what's going to happen in the very very very near future. As you'd probably know the real world usually doesn't let us exactly rebuild such a model. It's the same here, e.g. the particle _p_ could miss or hit it's target _T_ when it shouln't. Basicaly there two reason for that: our aming and/or deflection with _p_ is flawed and therefor _p_'s path isn't what it supposed to be. Secondly _T_ isn't in the area where we need it to be when we need it to be there. Another example could be that the measuring of this "T goes red" property is flawed.
+
+However, even it's not always true what indication we measure, it still can be enough. In theory, you only need it to be different from random. Think of an infinite number of experiments like this side by side and using the mean to determine the end result. In practice we can't set up a infinite number of such experiments nor could compute infinite number of values (in finite time). So for a practical approach _T_'s indication does not just only have to be different from random, it has to be significantly different from random __but__ does not need to be 100% accurate.
+
+Mean of three  parallel _T_'s:
+
+1. 5 _p_'s are flying towards 5 _T_'s
+2. at the time _p_'s pass the "lines of T" we measure the "T of _T_" properties __and remember there values (e.g. red)__
+3. we wait
+4. start random process to get random decision
+5. shortly before it's too late to deflect the _p_'s or not, we put the _F_'s on or not (depending on the decision earlier)
+6. also we remember the decision
+7. we calculate the mean from the 5 remembered values
+8. we compare that calculated mean with our decision
+
+![One way of dealing with false measurements][threepara]
+
+Overall knowing what one bit (hit or no hit) will be in a fraction of a moment doesn't seem to be very helpful, but wait until we put it make it more useful in the next part.
+

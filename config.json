@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://4btm.com",
+    "name": "4 bit Time Machine",
+    "owner": "paul",
+    "description": "An Engineers Approach to Time Technology"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
+  }
+}
